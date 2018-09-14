@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Enigma</title>
+    <link>http://mec-enigma.github.io/</link>
+    <description>Recent content on Enigma</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 06 Feb 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://mec-enigma.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Enigma</title>
+      <link>http://mec-enigma.github.io/blog/comment-example/</link>
+      <pubDate>Tue, 06 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://mec-enigma.github.io/blog/comment-example/</guid>
+      <description>Example of a post with comments using Disqus.</description>
+    </item>
+    
+    <item>
+      <title>Portfolio item</title>
+      <link>http://mec-enigma.github.io/projects/first-portfolio/</link>
+      <pubDate>Thu, 01 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://mec-enigma.github.io/projects/first-portfolio/</guid>
+      <description>Testing content</description>
+    </item>
+    
+  </channel>
+</rss>

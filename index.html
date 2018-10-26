@@ -1,410 +1,48 @@
 <!DOCTYPE html>
-<html class="no-js" lang="en-us">
+<html lang="en" dir="ltr">
 
-<head>
+    <head>
+        <meta charset="utf-8">
+        <meta name="theme-color" content="#242424"/>
+        <title>Enigma - The CS Club</title>
 
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<meta name="description" content="Navigator Hugo Template">
-<meta name="author" content="Themefisher.com"> 
-<meta name="generator" content="Hugo 0.49" />
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+        <!--<link href="https://stackpath.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">-->
+        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Space+Mono" rel="stylesheet">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Baumans" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
 
-<title>Enigma | CS Club @ MEC</title>
+    <body>
+        <nav class="navbar navbar-expand-sm">
+            <a class="navbar-brand" href="index.html">
+                <img src="images/logo.png" alt="Enigma - The CS Club" style="height:100px;">
+            </a>
+            <!-- Toggler/collapsibe Button -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-<!-- Mobile Specific Meta -->
-<meta name="viewport" content="width=device-width, initial-scale=1">
-
-<!-- Favicon -->
-<link rel="shortcut icon" type="image/x-icon" href="http://mec-enigma.github.io/images/favicon.png" />
-
-<!-- Stylesheets -->
-<!-- Themefisher Icon font -->
-<link rel="stylesheet" href="http://mec-enigma.github.io/plugins/themefisher-font/style.css">
-<!-- bootstrap.min css -->
-<link rel="stylesheet" href="http://mec-enigma.github.io/plugins/bootstrap/dist/css/bootstrap.min.css">
-<!-- Lightbox.min css -->
-<link rel="stylesheet" href="http://mec-enigma.github.io/plugins/lightbox2/dist/css/lightbox.min.css">
-<!-- Slick Carousel -->
-<link rel="stylesheet" href="http://mec-enigma.github.io/plugins/slick-carousel/slick/slick.css">
-<link rel="stylesheet" href="http://mec-enigma.github.io/plugins/slick-carousel/slick/slick-theme.css">
-<!-- Main Stylesheet -->
-<link rel="stylesheet" href="http://mec-enigma.github.io/css/style.css">
-
-</head>
-
-<body id="body">
-
-<!-- Start Preloader -->
-<div id="preloader">
-    <div class="preloader">
-        <div class="sk-circle1 sk-child"></div>
-        <div class="sk-circle2 sk-child"></div>
-        <div class="sk-circle3 sk-child"></div>
-        <div class="sk-circle4 sk-child"></div>
-        <div class="sk-circle5 sk-child"></div>
-        <div class="sk-circle6 sk-child"></div>
-        <div class="sk-circle7 sk-child"></div>
-        <div class="sk-circle8 sk-child"></div>
-        <div class="sk-circle9 sk-child"></div>
-        <div class="sk-circle10 sk-child"></div>
-        <div class="sk-circle11 sk-child"></div>
-        <div class="sk-circle12 sk-child"></div>
-    </div>
-</div>
-<!-- End Preloader -->
-
-<!-- Fixed Navigation -->
-<section class="header navigation">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <nav class="navbar navbar-expand-md">
-                    <a class="navbar-brand" href="http://mec-enigma.github.io/">
-                        <img src="http://mec-enigma.github.io/images/logo.png" alt="logo">
-                    </a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="tf-ion-android-menu"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav ml-auto">
-                            <li class="nav-item">
-                                <a class="nav-link" href="http://mec-enigma.github.io/">Home</a>
-                            </li>
-                            
-                            <li class="nav-item">
-                                <a class="nav-link" href="http://mec-enigma.github.io/about">About</a>
-                            </li>
-                            
-                            <li class="nav-item">
-                                <a class="nav-link" href="http://mec-enigma.github.io/blog">Blog</a>
-                            </li>
-                            
-                            <li class="nav-item">
-                                <a class="nav-link" href="http://mec-enigma.github.io/contact">Contact</a>
-                            </li>
-                            
-                        </ul>
-                    </div>
-                </nav>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="about/about.html" >About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="blog/blog.html" >Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact/contact.html" >Contact Us</a>
+                    </li>
+                </ul>
             </div>
-        </div>
-    </div>
-</section>
+        </nav>
 
-
-<!-- Hero Area -->
-<section class="hero-area">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-6">
-                <div class="video-player">
-                    <img class="img-fluid rounded" src="images/slider/video-player-thumb.jpg" alt="video-thumb">
-                    <a class="play-icon" href="javascript:void(0)">
-                        <i class="tf-ion-play" data-video="?autoplay=1"></i>
-                    </a>
-                </div>
-            </div>
-            <div class="col-md-6">
-                <div class="block">
-                    
-                        <h2>We are a group of college students, Crazy &amp; Passionate about Computer Science</h2>
-                    
-                    
-                    
-                        <ul class="list-inline wow fadeInUp" data-wow-duration=".5s" data-wow-delay=".7s">
-                            <li class="list-inline-item">
-                                <a href="http://mec-enigma.github.io/about" target="_blank" class="btn btn-main">Know More</a>
-                            </li>
-                        </ul>
-                    
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-
-
-<!-- Start About Section -->
-<section class="about-2 section bg-gray" id="about">
-    <div class="container">
-        <div class="row">
-            <div class="col-12 col-md-5">
-                
-                    <h2>We explore different topics during our sessions</h2>
-                
-            </div>
-            <div class="col-12 col-md-7">
-                
-            </div>
-        </div>
-    </div>
-</section>
-<!-- End About section -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!-- Blog Section Start -->
-<section class="blog section" id="blog">
-    <div class="container">
-        <div class="row">
-            <div class="col">
-                <div class="title text-center">
-                    <h4>OUR STORY</h4>
-                    <h2>The Enigma Blog</h2><span class="border"></span>
-                    
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            
-            <!-- single blog post -->
-            <article class="col-12 col-md-4">
-                <div class="post-item">
-                    <div class="post-thumb">
-                        <img class="img-fluid shadow rounded" src="http://mec-enigma.github.io/images/blog/post-3.jpg" alt="Generic placeholder image">
-                    </div>
-                    <div class="post-title">
-                        <h3 class="mt-0">
-                            <a href="http://mec-enigma.github.io/blog/mozilla_webextension_hackathon/">Mozilla WebExtension Hackathon</a>
-                        </h3>
-                    </div>
-                    <div class="post-meta">
-                        <ul class="list-inline">
-                            <li class="list-inline-item">
-                                <span>By</span>
-                                Raghav NS
-                            </li>
-                            <li class="list-inline-item">
-                                <span>at</span>
-                                <span>July 7, 2018</span>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="post-content">
-                        <p>24 hours to code. 200+ participants with one goal: to make the best possible add-on possible. Undergrads from all over the city aided by Mozilla mentors throughout the event were able to see their ideas become reality on 28th to 29th September, 2018. The location is Mahindra Ecole Centrale, an Engineering College in Hyderabad and the organizing committee included 5 admins of Enigma, The CS Club of the college.
-People started pouring in at 4 pm on Friday evening.</p>
-                    </div>
-                    <a class="btn btn-main" href="http://mec-enigma.github.io/blog/mozilla_webextension_hackathon/">Read more</a>
-                </div>
-            </article>
-            <!-- /single blog post -->
-            
-        </div>
-    </div>
-</section>
-<!-- Blog Section End -->
-
-
-
-<!-- Start Contact Us -->
-<section class="contact-us section bg-gray" id="contact">
-    <div class="container">
-        <div class="row">
-            <div class="col">
-                <div class="title text-center">
-                    <h4>DROP US A NOTE</h4>
-                    
-                    <h2>Contact Us.</h2>
-                    <span class="border"></span>
-                    
-                    
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <!-- Contact Details -->
-            <div class="col-12 col-md-6">
-                <div class="map">
-                    <div id="map" data-lat="51.507351" data-long="-0.127758" data-marker="http://mec-enigma.github.io/images/marker.png"></div>
-                </div>
-            </div>
-            <!-- Contact Form -->
-            <div class="contact-form col-12 col-md-6 ">
-                <form id="contact-form" method="post" action="sendmail.php" role="form">
-                    <div class="form-group">
-                        <input type="text" placeholder="Your Name" class="form-control" name="name" id="name">
-                    </div>
-
-                    <div class="form-group">
-                        <input type="email" placeholder="Your Email" class="form-control" name="email" id="email">
-                    </div>
-
-                    <div class="form-group">
-                        <input type="text" placeholder="Subject" class="form-control" name="subject" id="subject">
-                    </div>
-
-                    <div class="form-group">
-                        <textarea rows="6" placeholder="Message" class="form-control" name="message" id="message"></textarea>
-                    </div>
-
-                    <div id="mail-success" class="success">
-                        Thank you. The Mailman is on His Way :)
-                    </div>
-
-                    <div id="mail-fail" class="error">
-                        Sorry, don't know what happened. Try later :(
-                    </div>
-
-                    <div id="cf-submit">
-                        <input type="submit" id="contact-submit" class="btn btn-transparent" value="Submit">
-                    </div>
-                </form>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-12 col-md-4">
-                <div class="address-block contact-meta-block">
-                    <i class="tf-ion-android-pin"></i>
-                    <h4>Our Location</h4>
-                    <p>Mahindra Ecole Centrale, Survey No: 62/1A, Bahadurpally Jeedimetla, Hyderabad - 500043, Telangana, India</p>
-                </div>
-            </div>
-            <div class="col-12 col-md-4">
-                <div class="phone-block contact-meta-block">
-                    <i class="tf-ion-ios-telephone"></i>
-                    <h4>Call Us</h4>
-                    <p>
-                         Office: 040 - 67135100  
-                        <br> 
-                    </p>
-                </div>
-            </div>
-            <div class="col-12 col-md-4">
-                <div class="social-icons-block contact-meta-block">
-                    <i class="tf-ion-ios-contact"></i>
-                    <h4>We are social</h4>
-                    <ul class="list-inline social-icon">
-                        
-                        <li class="list-inline-item">
-                            <a href="https://www.facebook.com/">
-                                <i class="tf-ion-social-facebook"></i>
-                            </a>
-                        </li>
-                        
-                        
-                        <li class="list-inline-item">
-                            <a href="https://twitter.com/">
-                                <i class="tf-ion-social-twitter"></i>
-                            </a>
-                        </li>
-                        
-                        
-                        <li class="list-inline-item">
-                            <a href="https://www.linkedin.com/">
-                                <i class="tf-ion-social-linkedin"></i>
-                            </a>
-                        </li>
-                        
-                        
-                        <li class="list-inline-item">
-                            <a href="mailto:enigma@mechyd.ac.in">
-                                <i class="tf-ion-social-dribbble"></i>
-                            </a>
-                        </li>
-                        
-                        
-                        <li class="list-inline-item">
-                            <a href="https://www.instagram.com/">
-                                <i class="tf-ion-social-instagram"></i>
-                            </a>
-                        </li>
-                        
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-
-<!-- Footer Start -->
-<footer id="footer" class="bg-one">
-    <div class="top-footer">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-3 col-md-3 col-lg-3">
-                    <h3>About</h3>
-                    <p>Enigma is the Official Computer Science Club at Mahindra Ecole Centrale</p>
-                </div>
-                <div class="col-sm-3 col-md-3 col-lg-3">
-                    <h3>Our Services</h3>
-                    <ul>
-                        
-                    </ul>
-                </div>
-                <div class="col-sm-3 col-md-3 col-lg-3">
-                    <h3>Quick Links</h3>
-                    <ul>
-                        
-                        <li>
-                            <a href="http://mec-enigma.github.io/about">About</a>
-                        </li>
-                        
-                        <li>
-                            <a href="http://mec-enigma.github.io/blog">Blog</a>
-                        </li>
-                        
-                    </ul>
-                </div>
-                <div class="col-sm-3 col-md-3 col-lg-3">
-                    <h3>Subscribe Now</h3>
-                    <form class="subscribe-form">
-                        <div class="form-group">
-                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-                        </div>
-                        <button type="submit" class="btn btn-main-sm">Subscribe Now</button>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="footer-bottom">
-        <h5>Copyright 2018. All rights reserved.</h5>
-        <h6>Design and Developed by themefisher.com
-            <br>Get More
-            <a href="https://themefisher.com/free-bootstrap-templates/" target="_blank">Free Bootstrap Templates</a>
-        </h6>
-    </div>
-</footer>
-<!-- end footer -->
-
-
-<!-- Essential Scripts -->
-
-<!-- jQuery -->
-<script src="http://mec-enigma.github.io/plugins/jquery/dist/jquery.min.js"></script>
-<!-- Bootstrap -->
-<script src="http://mec-enigma.github.io/plugins/bootstrap/dist/js/popper.min.js"></script>
-<script src="http://mec-enigma.github.io/plugins/bootstrap/dist/js/bootstrap.min.js"></script>
-<!-- Parallax -->
-<script src="http://mec-enigma.github.io/plugins/parallax/jquery.parallax-1.1.3.js"></script>
-<!-- lightbox -->
-<script src="http://mec-enigma.github.io/plugins/lightbox2/dist/js/lightbox.min.js"></script>
-<!-- Slick Carousel -->
-<script src="http://mec-enigma.github.io/plugins/slick-carousel/slick/slick.min.js"></script>
-<!-- Portfolio Filtering -->
-<script src="http://mec-enigma.github.io/plugins/mixitup/dist/mixitup.min.js"></script>
-<!-- Smooth Scroll js -->
-<script src="http://mec-enigma.github.io/plugins/smooth-scroll/dist/js/smooth-scroll.min.js"></script>
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCC72vZw-6tGqFyRhhg5CkF2fqfILn2Tsw"></script>
-<!-- Custom js -->
-<script src="http://mec-enigma.github.io/js/script.js"></script>
-
-</body>
-
+    </body>
 </html>

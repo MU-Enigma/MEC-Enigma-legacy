@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>About on Enigma</title>
+    <link>https://mec-enigma.github.io/tags/about/</link>
+    <description>Recent content in About on Enigma</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
+    <lastBuildDate>Wed, 27 Feb 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://mec-enigma.github.io/tags/about/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>About Us</title>
+      <link>https://mec-enigma.github.io/about/</link>
+      <pubDate>Wed, 27 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://mec-enigma.github.io/about/</guid>
+      <description>Who we are The Computer Science Club at Mahindra Ecole Centrale is a student-run organization affiliated with the Computer Science and Engineering Department which provides learning, networking, and career opportunities to the members of Enigma.
+We are an organization dedicated to providing MEC students with a tight-knit community of friends and mentors to promote and advocate computer science and working with tech. Community events include study breaks, social outings, and meet and greets between different classes.</description>
+    </item>
+    
+  </channel>
+</rss>

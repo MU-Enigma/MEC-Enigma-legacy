@@ -6,10 +6,23 @@
     <description>Recent content on Enigma</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Wed, 27 Feb 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 07 Apr 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://mec-enigma.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Sessions</title>
+      <link>https://mec-enigma.github.io/sessions/</link>
+      <pubDate>Sun, 07 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://mec-enigma.github.io/sessions/</guid>
+      <description>There are 3 major sessions that Enigma conducts regularly through out the month. These sessions are generally organised by the members of the Club itself. If you have an idea for a new session or want to take one yourself, get in touch with us on Discord.
+The details for each session can be found below:
+ Competitive Coding Session
+Mondays | 6 - 8pm | LT-2
+The Competitive Coding session aims to take the programming skills of the members of the club to the next level.</description>
+    </item>
     
     <item>
       <title>About Us</title>

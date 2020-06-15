@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Enigma</title>
@@ -6,10 +6,55 @@
     <description>Recent content in Tags on Enigma</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Wed, 27 Feb 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 15 Jun 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://mec-enigma.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Bot</title>
+      <link>https://mec-enigma.github.io/tags/bot/</link>
+      <pubDate>Mon, 15 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://mec-enigma.github.io/tags/bot/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Creation Story</title>
+      <link>https://mec-enigma.github.io/tags/creation-story/</link>
+      <pubDate>Mon, 15 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://mec-enigma.github.io/tags/creation-story/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Discord Bot</title>
+      <link>https://mec-enigma.github.io/tags/discord-bot/</link>
+      <pubDate>Mon, 15 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://mec-enigma.github.io/tags/discord-bot/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Project</title>
+      <link>https://mec-enigma.github.io/tags/project/</link>
+      <pubDate>Mon, 15 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://mec-enigma.github.io/tags/project/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Telegram Bot</title>
+      <link>https://mec-enigma.github.io/tags/telegram-bot/</link>
+      <pubDate>Mon, 15 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://mec-enigma.github.io/tags/telegram-bot/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>About</title>
@@ -30,7 +75,7 @@
     </item>
     
     <item>
-      <title>Hackathon</title>
+      <title>hackathon</title>
       <link>https://mec-enigma.github.io/tags/hackathon/</link>
       <pubDate>Sun, 30 Sep 2018 00:00:00 +0000</pubDate>
       
@@ -39,7 +84,7 @@
     </item>
     
     <item>
-      <title>Mozilla</title>
+      <title>mozilla</title>
       <link>https://mec-enigma.github.io/tags/mozilla/</link>
       <pubDate>Sun, 30 Sep 2018 00:00:00 +0000</pubDate>
       
@@ -48,25 +93,7 @@
     </item>
     
     <item>
-      <title>Project</title>
-      <link>https://mec-enigma.github.io/tags/project/</link>
-      <pubDate>Mon, 30 Jul 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://mec-enigma.github.io/tags/project/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Sessions</title>
-      <link>https://mec-enigma.github.io/tags/sessions/</link>
-      <pubDate>Sun, 07 Apr 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://mec-enigma.github.io/tags/sessions/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Website</title>
+      <title>website</title>
       <link>https://mec-enigma.github.io/tags/website/</link>
       <pubDate>Mon, 30 Jul 2018 00:00:00 +0000</pubDate>
       

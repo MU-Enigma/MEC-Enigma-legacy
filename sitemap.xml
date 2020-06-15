@@ -1,15 +1,80 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://mec-enigma.github.io/sessions/</loc>
-    <lastmod>2019-04-07T00:00:00+00:00</lastmod>
+    <loc>https://mec-enigma.github.io/blog/</loc>
+    <lastmod>2020-06-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mec-enigma.github.io/tags/bot/</loc>
+    <lastmod>2020-06-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mec-enigma.github.io/tags/creation-story/</loc>
+    <lastmod>2020-06-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mec-enigma.github.io/tags/discord-bot/</loc>
+    <lastmod>2020-06-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mec-enigma.github.io/blog/how_i_built_my_first_bot/</loc>
+    <lastmod>2020-06-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mec-enigma.github.io/tags/project/</loc>
+    <lastmod>2020-06-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mec-enigma.github.io/tags/</loc>
+    <lastmod>2020-06-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mec-enigma.github.io/tags/telegram-bot/</loc>
+    <lastmod>2020-06-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mec-enigma.github.io/blog/xfoliating_disingenuity/</loc>
+    <lastmod>2020-06-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mec-enigma.github.io/tags/about/</loc>
+    <lastmod>2019-02-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mec-enigma.github.io/tags/about-us/</loc>
+    <lastmod>2019-02-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://mec-enigma.github.io/about/</loc>
     <lastmod>2019-02-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mec-enigma.github.io/</loc>
+    <lastmod>2019-02-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mec-enigma.github.io/tags/hackathon/</loc>
+    <lastmod>2018-09-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mec-enigma.github.io/tags/mozilla/</loc>
+    <lastmod>2018-09-30T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -23,74 +88,17 @@
   </url>
   
   <url>
-    <loc>https://mec-enigma.github.io/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://mec-enigma.github.io/tags/about/</loc>
-    <lastmod>2019-02-27T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://mec-enigma.github.io/tags/about-us/</loc>
-    <lastmod>2019-02-27T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://mec-enigma.github.io/blog/</loc>
-    <lastmod>2018-09-30T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://mec-enigma.github.io/</loc>
-    <lastmod>2019-04-07T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://mec-enigma.github.io/tags/hackathon/</loc>
-    <lastmod>2018-09-30T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://mec-enigma.github.io/tags/mozilla/</loc>
-    <lastmod>2018-09-30T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://mec-enigma.github.io/tags/project/</loc>
-    <lastmod>2018-07-30T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://mec-enigma.github.io/projects/</loc>
     <lastmod>2018-07-30T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://mec-enigma.github.io/tags/sessions/</loc>
-    <lastmod>2019-04-07T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://mec-enigma.github.io/tags/</loc>
-    <lastmod>2019-02-27T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://mec-enigma.github.io/tags/website/</loc>
     <lastmod>2018-07-30T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://mec-enigma.github.io/index.html</loc>
   </url>
   
 </urlset>

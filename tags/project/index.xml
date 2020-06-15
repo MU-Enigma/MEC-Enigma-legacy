@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Project on Enigma</title>
@@ -6,10 +6,29 @@
     <description>Recent content in Project on Enigma</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Mon, 30 Jul 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 15 Jun 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://mec-enigma.github.io/tags/project/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>How I Built My First Bot</title>
+      <link>https://mec-enigma.github.io/blog/how_i_built_my_first_bot/</link>
+      <pubDate>Mon, 15 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://mec-enigma.github.io/blog/how_i_built_my_first_bot/</guid>
+      <description>.image-center{ display: block; margin-left: auto; margin-right: auto; }  Bots. Who knows what they are? At least I didn’t until sometime ago. All that came to my mind when I heard the word robot was a mechanical machine that kind of resembles humans, might work on AI, blah blah blah. Let’s leave all that science fiction influenced thoughts behind to find out how I built my first bot.
+Before I begin, you should probably know that I am a very big fan of custom ROMs.</description>
+    </item>
+    
+    <item>
+      <title>Xfoliating Disingenuity</title>
+      <link>https://mec-enigma.github.io/blog/xfoliating_disingenuity/</link>
+      <pubDate>Mon, 15 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://mec-enigma.github.io/blog/xfoliating_disingenuity/</guid>
+      <description>.image-center{ display: block; margin-left: auto; margin-right: auto; }  The idea actually reached it&amp;rsquo;s inception during my time working on the Covindia website, when I was discussing stuff with Srikar. The first thing you notice when you text him is his &amp;ldquo;substantial&amp;rdquo; use of the phrase &amp;ldquo;xD&amp;rdquo;. So yes, you can pretty much figure out the next course of action: make a bot that reacts to every xD it encounters until it annoys the sugar honey iced tea out of them.</description>
+    </item>
     
     <item>
       <title>Project #001 - Enigma Website</title>

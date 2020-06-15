@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Discord Bot on Enigma</title>
+    <link>https://mec-enigma.github.io/tags/discord-bot/</link>
+    <description>Recent content in Discord Bot on Enigma</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
+    <lastBuildDate>Mon, 15 Jun 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://mec-enigma.github.io/tags/discord-bot/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Xfoliating Disingenuity</title>
+      <link>https://mec-enigma.github.io/blog/xfoliating_disingenuity/</link>
+      <pubDate>Mon, 15 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://mec-enigma.github.io/blog/xfoliating_disingenuity/</guid>
+      <description>.image-center{ display: block; margin-left: auto; margin-right: auto; }  The idea actually reached it&amp;rsquo;s inception during my time working on the Covindia website, when I was discussing stuff with Srikar. The first thing you notice when you text him is his &amp;ldquo;substantial&amp;rdquo; use of the phrase &amp;ldquo;xD&amp;rdquo;. So yes, you can pretty much figure out the next course of action: make a bot that reacts to every xD it encounters until it annoys the sugar honey iced tea out of them.</description>
+    </item>
+    
+  </channel>
+</rss>

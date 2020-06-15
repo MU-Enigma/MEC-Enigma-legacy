@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+<meta name="author" content="map[name:Ananta Srikar]">
+<meta name="description" content=".image-center{ display: block; margin-left: auto; margin-right: auto; }  Bots. Who knows what they are? At least I didn’t until sometime ago. All that came to my mind when I heard the word robot was a mechanical machine that kind of resembles humans, might work on AI, blah blah blah. Let’s leave all that science fiction influenced thoughts behind to find out how I built my first bot.
+Before I begin, you should probably know that I am a very big fan of custom ROMs."/>
+<meta name="keywords" content="Enigma, MEC, CS Club"/>
+<meta name="robots" content="noodp"/>
+<link rel="canonical" href="https://mec-enigma.github.io/blog/how_i_built_my_first_bot/" />
+
+
+    <title>
+        
+            How I Built My First Bot | Enigma
+        
+    </title>
+
+
+
+<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700|Source+Code+Pro" rel="stylesheet" type="text/css">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.2.1/css/flag-icon.min.css" rel="stylesheet" type="text/css">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+
+<link rel="stylesheet" href="https://mec-enigma.github.io/scss/main.min.099699ab246bf26f50616f7c9f00c79d46110459d1bd727b2d07d6fc09ece082.css">
+
+<link rel="apple-touch-icon" sizes="180x180" href="https://mec-enigma.github.io/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://mec-enigma.github.io/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="https://mec-enigma.github.io/favicon-16x16.png">
+<link rel="manifest" href="https://mec-enigma.github.io/site.webmanifest">
+<link rel="mask-icon" href="https://mec-enigma.github.io/safari-pinned-tab.svg" color="">
+<link rel="shortcut icon" href="https://mec-enigma.github.io/favicon.ico">
+<meta itemprop="name" content="How I Built My First Bot">
+<meta itemprop="description" content=".image-center{ display: block; margin-left: auto; margin-right: auto; }  Bots. Who knows what they are? At least I didn’t until sometime ago. All that came to my mind when I heard the word robot was a mechanical machine that kind of resembles humans, might work on AI, blah blah blah. Let’s leave all that science fiction influenced thoughts behind to find out how I built my first bot.
+Before I begin, you should probably know that I am a very big fan of custom ROMs.">
+<meta itemprop="datePublished" content="2020-06-15T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2020-06-15T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="637">
+<meta itemprop="image" content="https://mec-enigma.github.io"/>
+
+
+
+<meta itemprop="keywords" content="Bot,Telegram Bot,Creation Story,Project," /><meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://mec-enigma.github.io"/>
+
+<meta name="twitter:title" content="How I Built My First Bot"/>
+<meta name="twitter:description" content=".image-center{ display: block; margin-left: auto; margin-right: auto; }  Bots. Who knows what they are? At least I didn’t until sometime ago. All that came to my mind when I heard the word robot was a mechanical machine that kind of resembles humans, might work on AI, blah blah blah. Let’s leave all that science fiction influenced thoughts behind to find out how I built my first bot.
+Before I begin, you should probably know that I am a very big fan of custom ROMs."/>
+
+
+<meta property="article:section" content="Projects" />
+<meta property="article:published_time" content="2020-06-15 00:00:00 &#43;0000 UTC" />
+
+
+
+
+
+
+
+
+
+    </head>
+
+    <body class="dark-theme">
+        <div class="container">
+            <header class="header">
+    <span class="header__inner">
+        <a href="https://mec-enigma.github.io/" style="text-decoration: none;">
+    <div class="logo">
+        
+            <span class="logo__mark">></span>
+            <span class="logo__text">$ cd ~/enigma</span>
+            <span class="logo__cursor"></span>
+        
+    </div>
+</a>
+
+
+        <span class="header__right">
+            
+                <nav class="menu">
+    <ul class="menu__inner"><li><a href="https://mec-enigma.github.io/about/">About</a></li><li><a href="https://mec-enigma.github.io/blog/">Blog</a></li><li><a href="https://mec-enigma.github.io/projects/">Projects</a></li>
+    </ul>
+</nav>
+
+                <span class="menu-trigger">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+                    </svg>
+                </span>
+            
+
+            <span class="theme-toggle"><svg class="theme-toggler" width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M22 41C32.4934 41 41 32.4934 41 22C41 11.5066 32.4934 3 22
+  3C11.5066 3 3 11.5066 3 22C3 32.4934 11.5066 41 22 41ZM7 22C7
+  13.7157 13.7157 7 22 7V37C13.7157 37 7 30.2843 7 22Z"/>
+</svg>
+</span>
+        </span>
+    </span>
+</header>
+
+
+            <div class="content">
+                
+    <main class="post">
+
+        <div class="post-info">
+            
+            </p>
+        </div>
+
+        <article>
+            <h2 class="post-title"><a href="https://mec-enigma.github.io/blog/how_i_built_my_first_bot/">How I Built My First Bot</a></h2>
+                    <h4>Ananta Srikar</h4>
+
+            
+
+            <div class="post-content">
+                <style>
+.image-center{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+</style>
+<p>Bots. Who knows what they are? At least I didn’t until sometime ago. All that came to my mind when I heard the word robot was a mechanical machine that kind of resembles humans, might work on AI, blah blah blah. Let’s leave all that science fiction influenced thoughts behind to find out how I built my first bot.</p>
+<p>Before I begin, you should probably know that I am a very big fan of custom ROMs. A detailed explanation about what a ROM is can be found <a href="https://www.xda-developers.com/what-is-custom-rom-android/" title="XDA Developers">here</a>. ROM development requires the developers to communicate with the users using the ROM for hunting bugs, taking feedback and much more. All this is done via the use of Telegram since it allows a lot of members and supports the use of bots. Back then these bots never really caught my attention until I joined a group which made the Open Source version of the default Xiaomi cameras, <a href="https://camera.aeonax.com/">ANXCamera</a>. I needed this because it was the only software developed that ensured the almost perfect functioning of my phone’s 48 MP camera (RN7P). I joined the group to raise a query about video recording as it wasn’t working on my phone. To do that, I was asked to invoke a command which would log my query after which an admin would then help me solve the issue. By then, I had seen a lot of bots like this and thought to myself, &ldquo;Why don&rsquo;t I make one?&rdquo; After submitting my query, I turned to google to know more about bots.</p>
+<p>To my surprise, it wasn’t that hard. All I had to do was know a little bit of Python, import a library called <code>python-telegram-bot</code> and go through <a href="https://python-telegram-bot.readthedocs.io/en/stable/index.html">the documentation</a>. I made a simple bot which could say <code>Hello world!</code>, the standard way for any programmer to test their skills when starting something new. I christened it as TheNoobBot. But I wasn’t sure what I wanted my bot to do. Some things that came to my mind were weather updates, news reports and group moderation. After a few more days of work and learning how to use APIs, I was finally able to integrate the weather and news API. The news API was troublesome to deal with as there was no proper documentation and definitely wasn’t noob friendly. I was able to get international news. However, I specifically wanted Indian news because it’s home. Obviously. A few more days of searching and I was finally able to figure out the right way to get Indian data. The result was this: <a href="https://github.com/AnantaSrikar/telegramBot">telegramBot</a>. It still can’t do much. But yeah! I finally made my first bot!</p>
+<p>The next challenge was something because of which I was able to learn a lot of new things (I can’t emphasize &lsquo;a lot&rsquo; enough). I was supposed to make the bot run continuously (by running <code>python3 StartMyTelegramBot.py</code> on my laptop) so that it could listen for commands or messages and do what it was made to do. However, I couldn&rsquo;t keep my laptop switched on forever. That&rsquo;s practically impossible. I approached my senior, <a href="https://icecereal.github.io">Raghav</a>, who properly guided me on hosting the bot. It ran on my trusty Raspberry Pi 4 (4 GB RAM) for a while and it&rsquo;s now currently hosted on Heroku. You can head over to <a href="https://web.telegram.org/#/im?p=@TheNoob2001_bot">TheNoob2001_bot</a> to chat with the bot.</p>
+<img src="https://mec-enigma.github.io/img/blog-images/how_I_built_my_first_bot/TelegramBot_Final.png" width="300vw;" style="max-width: 400px;" class="image-center">
+<p style="text-align: center">The Bot in Action</p> <br>
+<p>The funny thing about this was that I made it during my End Semester Exams. Like always, the most interesting and attractive ideas/projects show up only when one has exams.
+This whole learning made me realize that there’s <em>so much more</em> in Computer Science and not just Machine Learning or Computer Vision or just raw programming. There’s a whole big never ending ocean out there to sail and explore.</p>
+<p><a href="http://anantasrikar.github.io/">Ananta Srikar</a></p>
+
+            </div>
+        </article>
+
+        <hr />
+
+        <div class="post-info">
+  				<p>
+  					<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-tag meta-icon"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line></svg><span class="tag"><a href="https://mec-enigma.github.io/tags/bot">Bot</a></span><span class="tag"><a href="https://mec-enigma.github.io/tags/telegram-bot">Telegram Bot</a></span><span class="tag"><a href="https://mec-enigma.github.io/tags/creation-story">Creation Story</a></span><span class="tag"><a href="https://mec-enigma.github.io/tags/project">Project</a></span>
+  				</p>
+  			</div>
+
+        
+    </main>
+
+            </div>
+
+            
+                <footer class="footer">
+    <div class="footer__inner">
+        <div class="footer__content">
+            <span>&copy; 2020</span>
+            
+                <span><a href="https://mec-enigma.github.io">Enigma</a></span>
+            
+            <span><a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a></span>
+            <span> <a href="https://mec-enigma.github.io/posts/index.xml" target="_blank" title="rss"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-rss"><path d="M4 11a9 9 0 0 1 9 9"></path><path d="M4 4a16 16 0 0 1 16 16"></path><circle cx="5" cy="19" r="1"></circle></svg></a></span>
+        </div>
+    </div>
+    <div class="footer__inner">
+        <div class="footer__content">
+
+        </div>
+    </div>
+    <div class="footer__inner">
+        <div class="footer__content">
+            <span>Powered by <a href="http://gohugo.io">Hugo</a></span>
+            <span>Made with &#10084; by <a href="https://github.com/rhazdon">rhazdon</a></span>
+        </div>
+    </div>
+</footer>
+
+            
+        </div>
+
+        
+
+
+
+
+
+<script type="text/javascript" src="https://mec-enigma.github.io/js/bundle.2e1cfbbc80c601be4090fb21a7c42799f39e5be49eb26987ed6a2c9d6c5f67f5793f3fabfe3e8fc66c2a9683a644a6159c252b542e305e17536d94d2f7ca94ab.js" integrity="sha512-Lhz7vIDGAb5AkPshp8QnmfOeW&#43;SesmmH7WosnWxfZ/V5Pz&#43;r/j6PxmwqloOmRKYVnCUrVC4wXhdTbZTS98qUqw=="></script>
+
+    </body>
+</html>
